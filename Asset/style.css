@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#very-top-item{
+    background-color: #000;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.second-top-item{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding:15px 100px ;
+} 
+
+.nav-bar {
+display: flex;
+gap: 15px;
+justify-content: center;
+}
+  
+ /* margin: 0 5px;  */
+ 
+
+.nav-bar li{
+    list-style: none;
+}
+
+.nav-bar li a{
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+
+.nav-bar-buttons{
+    text-align: center;  
+
+    display: flex;
+    gap: 15px;
+  }
+  
+  .nav-bar-buttons button{
+    padding: 12px 20px;
+    border-radius: 6px;
+    font-size: 1rem;
+    border: none;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
+  }
+
+.apply-btn{
+    background-color: white;
+    color:  rgb(255, 196, 0);
+
+}
+
+.Donations{
+    background-color:  rgb(255, 196, 0);
+    color: white;
+}
